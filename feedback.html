@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/feedback.css">
+  <script src="js/main.js"></script>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body style="margin: 0px;" id="main" onload="init()">
+  <div class="sidenav" id="sidenav">
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="profile.html">Profile</a>
+  </div>
+  <div class="header">
+    <div style="display: flex;"><button onclick="nav()" class="ham">&#9776;</button><div style="padding-top: 2%; font-size: 25px;">Cafeteria Ordering System</div></div>
+    <div style="padding-top: 0px;" id="login_status"></div>
+  </div>
+  <div id="content">
+    <div class="content-header">Your feedback</div>
+    <hr>
+    <div style="padding: 5px 0px 5px 0px">We would like your feedback to improve our website & services.</div>
+    <div style="padding: 5px 0px 5px 0px">How did you feel?</div>
+    <hr>
+    <div style="padding: 5px 0px 5px 0px">Please select your feedback category:</div>
+    <div style="display:flex; justify-content: space-between;">
+      <button class="boxes">Suggestion</button>
+      <button class="boxes">Something is wrong</button>
+      <button class="boxes">Compliment</button>
+    </div>
+    <div>
+      <div style="padding: 5px 0px 5px 0px">Please leave your feedback below:</div>
+      <textarea type="text" placeholder="Your feedback here" id="textbox" style="padding: 5px; border-radius: 5px; border-width: 2px; border-style: solid;"></textarea>
+    </div>
+    <div id="submit-btn">Submit</div>
+  </div>
+  <div class="footer">&copy; 2020 Nothene All Rights Reserved</div>
+</body>
+
+</html>

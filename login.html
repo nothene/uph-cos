@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html, body
+        {
+         height: 100%;
+         margin:0px;
+          	/* <!-- Full Height Element, also remember to set height 100% for div tag below--> */
+        }
+        
+        
+        #flexbox
+        {
+        	display:flex;
+        	justify-content:center;
+        	flex-direction:row;
+        	flex-wrap:nowrap;
+        	background-color:#8a2be2;
+        	height: 100%;
+        }
+        
+        #top
+        {
+        	text-align:center;
+        	background-color:white;
+        	padding:130px;
+        	width:300px;
+        	border-radius:4px;
+        	margin:auto;
+        	/* <!-- box-sizing: content-box; -->	 */
+        }
+        
+        input[id = "username"]
+        {
+        	border-radius:5px;
+        	border:1px solid lightgrey;
+        	padding:6px;
+        	width:200px;
+        	height:35px;
+        	margin-bottom:5px;
+        }
+        
+        input[id = "password"]
+        {
+        	border-radius:5px;
+        	border:1px solid lightgrey;
+        	padding:6px;
+        	width:200px;
+        	height:35px;
+        	margin-bottom:5px;
+        }
+        
+        button[type="button"]
+        {
+        	border-radius:5px;
+        	border:1px solid white;
+        	padding:6px;
+        	margin:0px;
+        	width:217px;
+        	height:47px;
+        }
+        
+        #t1
+        {
+        	font-family:Arial;
+        	font-weight:bold;
+        	font-size:35px;
+        	padding-bottom:8px;
+        }
+        
+        #t2
+        {
+        	font-family:Lato;
+        	color:lightgrey;
+        	letter-spacing:1px;
+        	font-size:12pt;
+        }
+        
+        #l1
+        {
+        	text-decoration: none; 
+        }
+	</style>
+	<script src="js/main.js"></script>
+    <head>
+	<body>
+		<div id="flexbox">
+			<div id="top">
+				<p id="t1">LOGIN</p>
+				<input type="text" id="username" placeholder="Username">
+				<input type="text" id="password" placeholder="Password">
+				<br>
+				<input type="submit" id="login" value="Login" onclick="login()">
+				<a href id="l1">
+					<p id="t2">Lupa Username/Password?</p>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
