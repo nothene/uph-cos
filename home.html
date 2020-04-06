@@ -8,26 +8,30 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body style="margin: 0px;" id="main" onload="init()">
+<body style="margin: 0px;" id="main" onload="init(); hello()">
   <div class="sidenav" id="sidenav">
     <a href="home.html">Home</a>
     <a href="menu.html">Menu</a>
     <a href="feedback.html">Feedback</a>
-    <a href="profile.html">Profile</a>
+    <a href="404.html">Profile</a>
   </div>
   <div class="header">
-    <div style="display: flex;"><button onclick="nav();" class="ham">&#9776;</button><div style="padding-top: 2%; font-size: 25px;">Cafeteria Ordering System</div></div>
+    <div style="display: flex;"><button onclick="nav();" class="ham">&#9776;</button><div style="padding-top: 2%; font-size: 35px;">Cafeteria Ordering System</div></div>
     <div style="padding-top: 0px;" id="login_status"></div>
   </div>
   <div id="content">
-    <div class="content-header">Hello there, </div>
+    <div id="hello">Hello there, User</div>
     <hr>
-    <div></div>
+    <div style="padding: 5px;">
+      <div style="padding: 5px 0px 5px 0px">Click the upper left icon to navigate the menu</div>
+      <div style="padding: 5px 0px 5px 0px">Click the upper right link to login/logout</div>
+    </div>
     <hr>
-    <div>Your recent orders:</div>
-    <div>Click the upper left icon to navigate the menu</div>
-    <button onclick="set('a', 'b')"></button>
-    <button onclick="set('b', 'a')"></button>
+    <div style="padding: 5px">
+      <div style="padding: 5px 0px 5px 0px">Have a pleasant day!</div>
+    </div>
+    <!-- <button onclick="set('a', 'b')"></button>
+    <button onclick="set('b', 'a')"></button> -->
   </div>
   <div class="footer">&copy; 2020 Nothene All Rights Reserved</div>
 </body>

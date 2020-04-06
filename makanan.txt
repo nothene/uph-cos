@@ -1,0 +1,14 @@
+{
+  "makanan":[
+    { "nama":"Nasi Goreng", "harga":15000, "waktu":10, "gambar":"https://www.masakapahariini.com/wp-content/uploads/2019/01/nasi-goreng-jawa-620x440.jpg" },
+    { "nama":"Mie Goreng", "harga":15000, "waktu":10, "gambar":"https://thegorbalsla.com/wp-content/uploads/2019/04/Resep-Mie-Goreng.jpg" },
+    { "nama":"Indomie Goreng", "harga":15000, "waktu":12, "gambar":"https://www.pegipegi.com/travel/wp-content/uploads/2017/06/indomie-goreng.jpg" },
+    { "nama":"Indomie Kuah", "harga":17000, "waktu":12, "gambar":"https://i2.wp.com/resepkoki.id/wp-content/uploads/2016/10/Indomie-kuah.jpg?fit=510%2C375&ssl=1" },
+    { "nama":"Mie Ayam", "harga":14000, "waktu":8, "gambar":"https://bisnisukm.com/uploads/2019/11/mencicip-gurihnya-keuntungan-dari-peluang-usaha-mie-ayam.jpg" },
+    { "nama":"Bakso Ayam", "harga":12000, "waktu":5, "gambar":"https://i1.wp.com/resepkoki.id/wp-content/uploads/2016/04/Resep-Bakso-urat.jpg?fit=1993%2C2521&ssl=1" },
+    { "nama":"Nasi Ayam", "harga":20000, "waktu":8, "gambar":"https://s4.bukalapak.com/img/411419426/w-1000/Nasi_Ayam_Hainan.jpg" },
+    { "nama":"Nasi Sayur", "harga":13000, "waktu":6, "gambar":"https://assets-pergikuliner.com/qD48sOtIwI0RrVjJQqIodiVuOzE=/385x290/smart/https://assets-pergikuliner.com/uploads/image/picture/1503758/picture-1564045077.jpg" },
+    { "nama":"Krabby Patty", "harga":13000, "waktu":2, "gambar":"https://blue.kumparan.com/kumpar/image/upload/fl_progressive,fl_lossy,c_fill,w_480/e9s3xiwrttjogfpnllyx.jpg" },
+    { "nama":"Ramen Ichiraku", "harga":20000, "waktu":12, "gambar":"https://www.pulsk.com/images/2013/03/29/7c6778abbe3d5e61968a8786947320d8.jpg" }
+    ]
+}

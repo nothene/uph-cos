@@ -1,0 +1,109 @@
+.viewCart:hover , .edit:hover {
+  cursor : pointer;
+  background-color : #04daff;
+}
+
+.header {
+  z-index : 2;
+}
+
+.viewCart {
+  margin-left : 100px;
+  border-radius : 5px;
+  padding : 0px 10px;
+  background-color : dodgerblue;
+  height : 40px;
+}
+
+.viewCart img , .edit img {
+  float : right;
+}
+
+#search {
+  border : none;
+  width : 400px;
+  margin : 10px;
+  font-size : 16px;
+}
+
+.edit {
+  margin-left : 200px;
+  border-radius : 5px;
+  padding : 0px 10px;
+  vertical-align : middle;
+  background-color : dodgerblue;
+  height : 40px;
+  overflow : hidden;
+}
+
+.heading2 button:hover {
+  cursor : pointer;
+  background-color : #bbbbbb;
+}
+
+.ListMenu {
+  display : flex;
+  margin : auto;
+  justify-content : center;
+  flex-wrap : wrap;
+}
+
+.MenuBox {
+  width : 250px;
+  height : 400px;
+  margin : 10px;
+  border : 1px solid gray;
+  border-radius : 10px;
+  box-shadow : 5px 5px 10px gray;
+}
+.ListMenu > div {
+  margin : 2rem 0rem;
+}
+
+.ListMenu button:hover {
+  background-color : blueviolet;
+  cursor : pointer;
+}
+.ListMenu button {
+  width : 130px;
+  height : 40px;
+  border : none;
+  display : block;
+  margin-top : 1rem;
+  margin-left : 130px;
+  background-color : dodgerblue;
+  color : white;
+  border-radius : 5px;
+}
+
+.viewCart, .edit {
+  margin-top : 10px;
+}
+
+.heading2 {
+  background-image : url('https://img.pngio.com/food-background-images-94-images-in-co-381169-png-images-pngio-food-png-background-1440_619.png');
+  display : flex;
+  height : 60px;
+  color : white;
+  position : sticky;
+  transition: top 0.3s;
+}
+
+#delete {
+  display : none;
+}
+
+.MenuBox img {
+  border-radius : 10px;
+  width : 250px;
+  height : 250px;
+}
+
+.MenuBox h2, p {
+  padding-right : 20px;
+  text-align : right;
+}
+
+p {
+  font-size : 18px;
+}

@@ -38,6 +38,7 @@ function login(){
 }
 
 function logout(){
+    alert("Logout successful");
     set("login_status", "false");
     window.location = "home.html";
 }
@@ -52,8 +53,31 @@ function init(){
     }
 }
 
-function add_menu(){
+function hello(){
+    if(check('login_status') == 'true'){
+        document.getElementById("hello").innerHTML = "Hello there, User";
+    } else {
+        document.getElementById("hello").innerHTML = "Welcome to COS Home Page";
+    }
+}
 
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+function add_menu(){
+    readTextFile("makanan.json", function(text){
+        var data = JSON.parse(text);
+        alert(text);
+    });
 }
 
 // function adjustheight(){
